@@ -30,6 +30,14 @@
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
+
+@media (max-width: 768px) {
+  #productosD .producto {
+    width: 90%;
+    background-size: cover;
+    height: 500px;
+  }
+}
 #productosD .producto p {
   position: absolute;
   bottom: -100px;
