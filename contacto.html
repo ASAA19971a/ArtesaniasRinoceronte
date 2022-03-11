@@ -43,25 +43,84 @@
 
     <!-- Incio codigo pagina contacto -->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 offset-md-1">
-
-                <div class="form">
-
-                </div>
-            </div>
-
-            <div class="col-md-6">
-
-            </div>
+    <div class="container py-5">
+        <div class="titulo text-center">
+            <h2 class="text-primary">Sucursales</h2>
+            <hr class="bg-primary">
+            <p class="text-center">Conoce la ubicación de nuestras sucursales.</p>
+        </div>
+        <div class="p-2 d-flex flex-column align-items-center">
+            <i class="fas fa-location-dot fa-2x text-primary"></i>
+            <p> Calle Garcia Moreno y Mejia</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4473000042788!2d-78.51221701194834!3d-0.21890689998995447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a28366b3d81%3A0xefecc5f250a6b50b!2sGarc%C3%ADa%20Moreno%20%26%20Mej%C3%ADa%2C%20Quito%20170401!5e0!3m2!1ses!2sec!4v1646958360756!5m2!1ses!2sec"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
-
+    <!-- Inicio seccion formulario -->
     <div class="titulo text-center">
         <h2 class="text-primary">Contáctanos</h2>
         <hr class="bg-primary">
         <p class="text-center">Completa el formulario para ponernos en contacto contigo.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 offset-md-1 ">
+
+                <div class="form">
+                    <form action="mailto:artesaniasrinoceronte@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group row py-2">
+                            <label for="nombre" class="col-sm-2 col-form-label">Nombre:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-group row py-2">
+                            <label for="email" class="col-sm-2 col-form-label">Email:</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="email" placeholder="Ingrese su correo"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-group row py-2">
+                            <label for="celular" class="col-sm-2 col-form-label">Celular:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="celular" placeholder="Ingrese su celular"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-group row py-2">
+                            <label for="msj" class="col-sm-2 col-form-label">Mensaje:</label>
+                            <div class="col-sm-10">
+                                <textarea name="" id="msj" rows="5" class=" form-control"
+                                    placeholder="Ingrese su Mensaje" required></textarea>
+
+                            </div>
+                        </div>
+                        <div class="form-group row py-2">
+                            <div class="col-sm-10 offset-sm-2">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex flex-column align-items-center    justify-content-center">
+                    <i class="fas  fa-envelope fa-2x text-primary"></i>
+                    <p>artesaniasrinoceronte@gmail.com</p>
+                    <i class="fas fa-phone fa-2x text-primary"></i>
+                    <p> +593 984906571</p>
+
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -86,7 +145,8 @@
     </script>
 
     <!-- CDN FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/cb2bd7ba30.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/cb2bd7ba30.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/c204049ed3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
